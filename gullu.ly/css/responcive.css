@@ -1,0 +1,240 @@
+/* Medium Layout: 1280px. */
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1170px;}
+}
+.container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* laptop */
+@media only screen and (min-width: 992px) and (max-width: 1199px){ 
+    .slide-left h1 {
+        font-size: 55px;
+    }
+    .what-tittle h6 {
+        font-size: 18px;
+    }
+    .what-icon.two::before, .what-icon.one::before {
+        width: 170px;
+        right: -189px;
+    }
+    .main-contant h2 {
+        font-size: 35px;
+    }
+    .about-btn {
+        width: 240px;
+        padding-left: 15px;
+    }
+    .our-services-area img {
+        left: -35%;
+    }
+    .services-item {
+        padding: 0 37px;
+    }
+    .theme-tittle h2 {
+        font-size: 35px;
+    }
+    .img-box {
+        left: -35%;
+       
+    }
+    .img-box.about {
+        left: -16%;
+    }
+    .single-bloge-itme h5 {
+        font-size: 17px;
+    }
+    .bootom-right li {
+        padding-left: 40px;
+    }
+    
+}
+/* Tablet & mobile Layout: 768px. */
+@media only screen and (max-width: 991px) { 
+    .header-bar{
+        display: block;
+    }
+    .offcanvas-manu{
+        display: block;
+    }
+    .main-manu {
+        display: none;
+    }
+    .header-area.fixed .logo {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    .slide-left {
+        width: 100%;
+    }
+    .what-tittle h6 {
+        font-size: 18px;
+    }
+    .what-icon.two::before, .what-icon.one::before {
+       display: none;
+    }
+    .single-what-itme h5 a {
+        font-size: 18px;
+    }
+    .img-box.about {
+        display: none;
+    }
+    .offset-md-5 {
+        margin-left: 0;
+    }
+    .single-counter-item p {
+        font-size: 18px;
+       
+    }
+    .theme-tittle a {
+        position: relative;
+        margin-top: 20px;
+        right: auto;
+        display: inline-block;
+    }
+    .our-services-area .theme-tittle a {
+        margin-left: 70px;
+    }
+    .our-services-area img {
+        display: none;
+    }
+    .testmonial-area .img-box img {
+        display: none;
+    }
+    .pricing-table {
+        margin-top: 80px;
+    }
+    .white-bg {
+        background-color: #ccc;
+    }
+    .mt-30 {
+        margin-top: 30px;
+    }
+    .bottom-footer {
+        flex-flow: column-reverse;
+    }
+    .bootom-right {
+        margin-bottom: 30px;
+    }
+
+
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+  
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px){
+    .offcanvas-manu { 
+        left: 0px;
+        width: 100%;
+    }
+    .progress-wrap {
+        right: 5px;
+        bottom: 20px;
+    }
+    .logo {
+        padding-left: 15px;
+    }
+    .slide-left h1 {
+        font-size: 35px;
+        line-height: 55px;
+        
+    }
+    .slide-left h5 {
+        color: #000;
+    }
+    .container {
+        padding-left:15px !important;
+        padding-right:15px !important;
+    }
+    .what-tittle h3 {
+        font-size: 28px;
+    }
+    .sinle-slide-item .container {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .what-tittle h6 {
+        line-height: 30px;
+    }
+    .main-contant {
+        padding-left: 0px;
+    }
+    .main-contant h2 {
+        font-size: 30px;
+        line-height: 48px;
+    }
+    .about-btn {
+        position: static;
+        margin-top: 20px;
+        padding: 18px 0 15px 10px;
+    }
+    .count-number {
+        font-size: 40px;
+    }
+    .single-counter-item p {
+        font-size: 15px;
+    }
+    .theme-tittle h2 br {
+        display: none;
+    }
+    .portfulio-wrapper {
+        margin-top: 100px;
+    }
+    .our-portfulio {
+        padding: 100px 0 100px 0;
+    }
+    .our-services-area .theme-tittle a {
+        margin-left: 0;
+    }
+    .testmonial-wrapper {
+        padding-left: 80px;
+    }
+    .pricing-btn li a {
+        width: 142px;
+    }
+    .pricing-wrapper {
+        flex-direction: column;
+    }
+    .left-pricing, .right-pricing {
+        width: 100%;
+    }
+    .pricing-bg {
+        display: none;
+    }
+    .pricing-table-area {
+        padding-bottom: 100px;
+    }
+    .bloge-area .row [class*="col-"] {
+        padding: 0px;
+    }
+    .theme-tittle h2 {
+        font-size: 35px;
+    }
+    .bloge-area .theme-tittle {
+        margin-bottom: 76px;
+    }
+    footer h4 {
+        margin-top: 50px;
+    }
+    .mt-30 {
+        margin-top: 0px;
+    }
+    .bottom-footer {
+        text-align: center;
+    }
+}
+
+/* mddiam divice */
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    footer.bg-one {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}
